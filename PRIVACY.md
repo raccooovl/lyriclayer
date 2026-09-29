@@ -1,6 +1,6 @@
 # LyricLayer privacy policy
 
-Last updated: 28 September 2026. Applies to LyricLayer version 0.5.1.
+Last updated: 29 September 2026. Applies to LyricLayer version 0.5.1.
 
 **Publisher:** raccooovl
 
@@ -77,3 +77,9 @@ Saved lyrics can be viewed when you revisit their video, and the selected origin
 The extension contains no analytics, advertising, payment or account system, and does not sell information or use it for credit decisions. Its information handling supports lyric search, display, customization and local saving. It does not request passwords, financial information, health information or precise device location.
 
 This policy will be updated when the extension's data practices change. The last-updated date above identifies the policy version. Contact the publisher using the privacy contact at the top of this page. GitHub handles visits and public issue submissions under its own policies.
+
+## Interaction handling
+
+LyricLayer uses the current media playback position transiently to choose the lyric line to display and to create timing adjustments you request. Its controls respond locally to clicks, keyboard commands and subtitle dragging. It saves the resulting lyric choices, timing edits, subtitle position and other preferences; it does not keep an interaction history, clickstream, keystroke or scroll log, pointer trail, or a record of network traffic. Playback positions and control events are not sent to the publisher or lyric services.
+
+Saved video identifiers remain a local browsing-related record, lyric metadata and text remain website content, and online lyric services receive normal connection information including IP addresses. These practices remain disclosed even though ordinary local controls are not classified as collection of behavioral activity.
