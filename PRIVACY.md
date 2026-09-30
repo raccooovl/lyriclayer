@@ -1,14 +1,18 @@
 # LyricLayer privacy policy
 
-Updated 30 September 2026. This page covers the 0.9.3 release and retains the prior 0.5.1 policy for users who still have that version installed. Use the section matching your installed version.
+Updated 1 October 2026. This page covers the 0.9.3 release and retains the prior 0.5.1 policy for users who still have that version installed. Use the section matching your installed version.
 
 ## Version 0.9.3
 
-Updated 30 September 2026. This policy describes LyricLayer 0.9.3 for Microsoft Edge. Publisher: raccooovl. Privacy contact: [LyricLayer issues](https://github.com/raccooovl/lyriclayer/issues). Issues are public, so do not include sensitive information.
+Updated 1 October 2026. This policy describes LyricLayer 0.9.3 for Google Chrome and Microsoft Edge. Publisher: raccooovl. Privacy contact: [LyricLayer issues](https://github.com/raccooovl/lyriclayer/issues). Issues are public, so do not include sensitive information.
 
 LyricLayer reads the current YouTube video's ID, title, artist/channel, playback position, duration and ad state to find and display lyrics. Fresh installations automatically find and display matching lyrics. Existing explicit Off preferences remain off. Automatic searching, timing checks and local audio matching have separate settings.
 
 Playback position and state are used in memory for synchronization, timing edits, seeking and practice loops. LyricLayer does not retain a playback or interaction history. It does not log page clicks, typed keys, scroll activity or mouse movements, monitor other websites' network traffic, or send usage analytics. Its own buttons, text fields, keyboard shortcuts and subtitle-position controls handle your actions only to perform the requested function. Position controls save the resulting subtitle placement, rather than a pointer-movement log.
+
+### Chrome Web Store Limited Use
+
+LyricLayer follows the Chrome Web Store User Data Policy and its Limited Use requirements. Data accessed by the extension is used only for the lyric search, display, synchronization, editing and saving features described in this policy. Transfers to enabled lyric providers are limited to the requests described below. The publisher does not sell data, use it for advertising or profiling, or allow people to read it for unrelated purposes. Local audio and captions are not uploaded. Any diagnostic file you choose to share for support is shared only through your own explicit action; review it first and avoid posting sensitive information in public issues.
 
 ### Lyrics requests
 
