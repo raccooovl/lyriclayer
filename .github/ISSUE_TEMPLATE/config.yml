@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Setup and troubleshooting
+    url: https://perfsn-extensions.basstank2004.chatgpt.site/lyriclayer/guide/
+    about: Start here for installation, controls and common problems.

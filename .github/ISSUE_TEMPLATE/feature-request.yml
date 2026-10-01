@@ -1,0 +1,18 @@
+name: Suggest an improvement
+description: Describe a problem you want the extension to solve.
+title: "[Idea] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is getting in your way?
+      description: A real example helps us understand the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: Describe the change you would like.
+    validations:
+      required: false

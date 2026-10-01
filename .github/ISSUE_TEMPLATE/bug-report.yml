@@ -1,0 +1,57 @@
+name: Report a problem
+description: Tell us what failed and how to reproduce it.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the [setup guide](https://perfsn-extensions.basstank2004.chatgpt.site/lyriclayer/guide/) first. Reports are public; include only information you want to share.
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Microsoft Edge
+        - Other Chromium browser
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Extension version
+      description: Find it on your browser's Extensions page. Enter unknown if you cannot check.
+      placeholder: "0.x.x"
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Include what you expected and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the page
+        2. Use the control
+        3. Describe the result
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      description: The public YouTube video where this happened, if relevant.
+    validations:
+      required: false
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional details
+      description: Include the selected recording, lyric source and approximate early or late timing if relevant. You can also paste a screenshot.
+    validations:
+      required: false
