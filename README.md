@@ -7,7 +7,7 @@ Get lyrics for YouTube songs that do not have lyric captions. LyricLayer finds l
 - [Install LyricLayer for Chrome](https://chromewebstore.google.com/detail/ekpbclfackdloffiamdcmkhkjjbkbdad)
 - [Install LyricLayer for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/dgblkpdhepmipbldmbdgdkhpnhaoghph)
 
-Use the official browser store for installation and automatic updates. Chrome has version 0.9.3. Edge currently has version 0.5.1 while the 0.9.3 update is under review. Version 0.9.4 is being prepared with an updated name and store description; its features and data handling are the same as 0.9.3.
+Use the official browser store for installation and automatic updates. Chrome version 0.9.3 is currently published; version 0.9.4 has been submitted for review. Edge version 0.5.1 is currently published, version 0.9.3 is under review, and the 0.9.4 listing refresh is prepared. Version 0.9.4 updates the name and store description; its features and data handling are the same as 0.9.3.
 
 ## Highlights in version 0.9.x
 
