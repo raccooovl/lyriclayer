@@ -1,10 +1,10 @@
 # LyricLayer privacy policy
 
-Updated 1 October 2026. This page covers the 0.9.3 release and retains the prior 0.5.1 policy for users who still have that version installed. Use the section matching your installed version.
+Updated 1 October 2026. This page covers releases 0.9.3 and 0.9.4 and retains the prior 0.5.1 policy for users who still have that version installed. Version 0.9.4 changes only the extension name and store description; the data practices described for 0.9.3 remain the same. Use the section matching your installed version.
 
-## Version 0.9.3
+## Versions 0.9.3 and 0.9.4
 
-Updated 1 October 2026. This policy describes LyricLayer 0.9.3 for Google Chrome and Microsoft Edge. Publisher: raccooovl. Privacy contact: [LyricLayer issues](https://github.com/raccooovl/lyriclayer/issues). Issues are public, so do not include sensitive information.
+Updated 1 October 2026. This policy describes LyricLayer 0.9.3 and its metadata-only 0.9.4 update for Google Chrome and Microsoft Edge. Publisher: raccooovl. Privacy contact: [LyricLayer issues](https://github.com/raccooovl/lyriclayer/issues). Issues are public, so do not include sensitive information.
 
 LyricLayer reads the current YouTube video's ID, title, artist/channel, playback position, duration and ad state to find and display lyrics. Fresh installations automatically find and display matching lyrics. Existing explicit Off preferences remain off. Automatic searching, timing checks and local audio matching have separate settings.
 
