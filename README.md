@@ -1,12 +1,38 @@
-# LyricLayer
+# LyricLayer: Lyrics for YouTube
 
-LyricLayer displays synced song lyrics on desktop YouTube in Microsoft Edge. It includes recording selection, timing adjustment, LRC import, movable subtitles, and appearance controls. Original lyrics are shown by default. Source availability and timing vary.
+Get lyrics for YouTube songs that do not have lyric captions. LyricLayer finds lyrics from supported sources and displays them on desktop YouTube in Google Chrome and Microsoft Edge. Availability and timing vary by song.
 
-## Privacy and support
+## Install from a browser store
 
-- [Privacy policy](PRIVACY.md)
-- [Report a problem or ask a question](https://github.com/raccooovl/lyriclayer/issues)
+- [Install LyricLayer for Chrome](https://chromewebstore.google.com/detail/ekpbclfackdloffiamdcmkhkjjbkbdad)
+- [Install LyricLayer for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/dgblkpdhepmipbldmbdgdkhpnhaoghph)
 
-Issues are public. Please do not post passwords, private account information, full browsing history, or other sensitive personal information. A bug report can include the extension version, Edge version, what happened, and the steps needed to reproduce it.
+Use the official browser store for installation and automatic updates. Chrome has version 0.9.3. Edge currently has version 0.5.1 while the 0.9.3 update is under review. Version 0.9.4 is being prepared with an updated name and store description; its features and data handling are the same as 0.9.3.
 
-This repository hosts the public policy and support information. LyricLayer is an independent extension and is not an official Microsoft, YouTube, or lyric-provider product.
+## Highlights in version 0.9.x
+
+- Follow timed lyrics alongside YouTube playback, including songs without lyric subtitles, when a supported source has a suitable recording.
+- Keep compact or scrolling lyrics above other apps in a floating window. Keep the source YouTube tab open.
+- Adjust lyric timing, choose recordings, import LRC lyrics, and practise with verse loops.
+
+The floating window and newer timing and practice features described here require version 0.9.x. They will reach Edge when its newer build completes store review.
+
+## Get started
+
+1. Install LyricLayer from the store for your browser.
+2. Open or refresh a desktop YouTube music video.
+3. Use the **Lyrics** controls to show lyrics, choose a recording or adjust timing. In version 0.9.x, fresh installations search and display matching lyrics automatically; existing Off preferences are preserved.
+
+## Privacy and limitations
+
+Lyric availability, recording matches and timing vary. LyricLayer does not guarantee lyrics for every song or perfectly aligned lyrics for every video. You can choose another recording, adjust timing or import your own lyrics.
+
+Preferences and saved lyric selections are stored locally in your browser profile. Enabled lyric providers receive the song searches needed to find lyrics and ordinary network information such as your IP address. LyricLayer has no publisher analytics or advertising. Read the [privacy policy](PRIVACY.md) for the details applicable to your installed version.
+
+## Support
+
+Email [support@perfsn.xyz](mailto:support@perfsn.xyz) or [report a problem or ask a question](https://github.com/raccooovl/lyriclayer/issues). Include the extension version, browser version, what happened, and the steps needed to reproduce it.
+
+Issues are public. Do not post passwords, private account information, full browsing history, or other sensitive personal information.
+
+This repository hosts the public policy and support information. LyricLayer is an independent extension and is not an official Google, Microsoft, YouTube, or lyric-provider product.
