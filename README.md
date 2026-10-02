@@ -19,6 +19,8 @@ The floating window and newer timing and practice features described here requir
 
 ## Get started
 
+[Get lyrics when YouTube captions are missing](https://perfsn-extensions.basstank2004.chatgpt.site/lyriclayer/youtube-without-lyrics/?utm_source=github&utm_medium=referral&utm_campaign=discovery_2026_10&utm_content=lyric_readme_guide)
+
 [Product page](https://perfsn-extensions.basstank2004.chatgpt.site/lyriclayer/) · [Setup and troubleshooting guide](https://perfsn-extensions.basstank2004.chatgpt.site/lyriclayer/guide/)
 
 1. Install LyricLayer from the store for your browser.
