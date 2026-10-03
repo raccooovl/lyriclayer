@@ -31,9 +31,13 @@ The floating window, timing repair and practice features require version 0.9.x, 
 
 ![LyricLayer showing lyrics on a YouTube page](https://perfsn-extensions.basstank2004.chatgpt.site/assets/lyric-youtube.png)
 
-Captured on YouTube. Lyrics and timing depend on the recording and source.
+Historical YouTube capture showing LyricLayer v0.8.1. Current controls may differ; lyrics and timing depend on the recording and source.
 
-[Product facts and downloadable screenshots](https://perfsn-extensions.basstank2004.chatgpt.site/media/#lyriclayer)
+[Product facts and screenshots](https://perfsn-extensions.basstank2004.chatgpt.site/media/#lyriclayer) · [Download reviewer kit](https://perfsn-extensions.basstank2004.chatgpt.site/media/reviewer-kit-lyriclayer.zip)
+
+The reviewer kit includes an offline guide, six review checks, an original LRC timing sample, screenshots and labelled saved-screenshot walkthroughs.
+
+[Watch the 22-second interface tutorial](https://perfsn-extensions.basstank2004.chatgpt.site/assets/lyriclayer-demo.mp4). Ordered captures of the actual extension interface use fictional sample lyrics, with the floating renderer inside a preview frame. This is a local sample demonstration, not a continuous recording on YouTube.
 
 ## Privacy and limitations
 
