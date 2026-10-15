@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>LyricLayer was removed</title>
+  <style>
+    :root{color-scheme:dark; --bg:#15171c; --surface:#1d2026; --border:rgba(255,255,255,.09); --text:#eef1f5; --muted:#a9b1bd; --accent:#9cc5ff;}
+    @media (prefers-color-scheme: light){:root{color-scheme:light; --bg:#f8f9fb; --surface:#ffffff; --border:#d7dce2; --text:#20242a; --muted:#59636f; --accent:#0b63c7;}}
+    body{margin:0; min-height:100vh; background:var(--bg); color:var(--text); font:15px/1.55 "Segoe UI",system-ui,-apple-system,sans-serif;}
+    main{max-width:560px; margin:0 auto; padding:48px 20px 64px;}
+    h1{margin:0 0 8px; font-size:26px; line-height:1.2;}
+    p{margin:0 0 14px;}
+    .muted{color:var(--muted); font-size:13px;}
+    .card{margin:24px 0 0; padding:18px 20px; border:1px solid var(--border); border-radius:12px; background:var(--surface);}
+    .card h2{margin:0 0 6px; font-size:16px;}
+    ul{margin:0; padding:0; list-style:none;}
+    li{margin:0 0 8px;}
+    a{color:var(--accent); font-weight:600; text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    a:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+    [hidden]{display:none!important;}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>LyricLayer was removed</h1>
+    <p>Your saved lyrics, timing fixes and settings were stored only in that browser, so they were deleted with the extension.</p>
+    <p class="muted" id="version-note" hidden></p>
+
+    <section class="card" aria-labelledby="feedback-title">
+      <h2 id="feedback-title">Did something not work?</h2>
+      <p>A short report helps fix it for everyone who still uses LyricLayer.</p>
+      <ul>
+        <li><a id="report-link" href="https://github.com/raccooovl/lyriclayer/issues/new?template=bug-report.yml">Report a problem</a></li>
+        <li><a href="https://github.com/raccooovl/lyriclayer/issues/new?template=feature-request.yml">Suggest an improvement</a></li>
+        <li id="form-item" hidden><a id="form-link" href="#">Tell us why you removed it (one question)</a></li>
+      </ul>
+      <p class="muted">GitHub issues are public, so leave out personal details.</p>
+    </section>
+
+    <section class="card" aria-labelledby="back-title">
+      <h2 id="back-title">Changed your mind?</h2>
+      <ul>
+        <li><a href="https://chromewebstore.google.com/detail/ekpbclfackdloffiamdcmkhkjjbkbdad">Install LyricLayer for Chrome</a></li>
+        <li><a href="https://microsoftedge.microsoft.com/addons/detail/dgblkpdhepmipbldmbdgdkhpnhaoghph">Install LyricLayer for Microsoft Edge</a></li>
+      </ul>
+    </section>
+  </main>
+  <script>
+    // Optional: paste a one-question Google Form link here to show it on this page.
+    const FEEDBACK_FORM_URL = '';
+    const version = new URLSearchParams(location.search).get('v') || '';
+    if (/^\d+(?:\.\d+){0,3}$/.test(version)) {
+      document.getElementById('version-note').textContent = 'Removed version: ' + version;
+      document.getElementById('version-note').hidden = false;
+      const report = new URL(document.getElementById('report-link').href);
+      report.searchParams.set('version', version);
+      document.getElementById('report-link').href = report.href;
+    }
+    if (FEEDBACK_FORM_URL) {
+      document.getElementById('form-link').href = FEEDBACK_FORM_URL;
+      document.getElementById('form-item').hidden = false;
+    }
+  </script>
+</body>
+</html>
